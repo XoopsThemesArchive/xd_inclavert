@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta name="robots" content="<{$xoops_meta_robots}>">
+<meta name="keywords" content="<{$xoops_meta_keywords}>">
+<meta name="description" content="<{$xoops_meta_description}>">
+<meta http-equiv="content-type" content="text/html; charset=<{$xoops_charset}>">
+<link rel="stylesheet" type="text/css" media="screen" href="<{$xoops_url}>/xoops.css">
+<link rel="stylesheet" type="text/css" media="screen" href="<{$xoops_themecss}>">
+<title><{$xoops_sitename}> - <{$xoops_pagetitle}></title>
+<!-- RMV:  added module header <{$xoops_themecss}>-->
+<{$xoops_module_header}>
+<script type="text/javascript">
+<!--
+<{$xoops_js}>
+//-->
+</script>
+</head>
+<body>
+<div id="englobe">
+	<div id="header">		
+<div style="position: absolute; left: 270px; top: 30px"><{if !$xoops_isuser}><div align="center"><form action="<{$xoops_url}>/user.php" method="post"><input type="hidden" name="xoops_redirect" value="<{$xoops_requesturi}>" /><input type="hidden" name="op" value="login" />Pseudo : <input class="formButton" type="text" name="uname" size="6"  /> 
+	Passe : <input class="formButton" type="password" name="pass" size="7"  />&nbsp;<input class="formButton" type="submit" value="Connexion" />&nbsp;</form></div><{/if}></div>
+<div style="position: absolute; left: 582px; top: 31px"><{if !$xoops_isuser}><a class="menu" href="<{$xoops_url}>/register.php">Créer un compte</a><{/if}><{if $xoops_isuser}>Bienvenue <a href="<{$xoops_url}>/user.php"><b><{$xoops_uname}></b></a><{/if}></div>
+		</div>
+		
+	<div id="contenu"><table cellpadding="0" cellspacing="0" width="719"><tr>
+			<td style="width:553px;">
+<div style="margin-left: 5px; width: 538px; margin-right: 5px;">
+<{foreach item=block from=$xoops_ccblocks}><div style="margin-left: 4px;background: url('<{$xoops_url}>/themes/xd_inclavert/menu.gif') no-repeat; height:23px; width: 530px;"><div style="float: left; margin-top: 5px; margin-left:3px"><b><{$block.title}></b></div></div>
+	<br /><{$block.content}><br /><{/foreach}>
+<{if $xoops_showcblock == 1}>
+<table style="width: 100%; height: auto"><tr>
+<td style="width: 50%;">
+<{foreach item=block from=$xoops_clblocks}>
+<div style="margin-left: 4px;background: url('<{$xoops_url}>/themes/xd_inclavert/menu3.gif') no-repeat; height:23px; width: 250px;"><div style="float: left; margin-top: 5px; margin-left:3px"><b><{$block.title}></b></div></div>
+	<br /><{$block.content}><br />
+<{/foreach}>
+</td><td style="width: 50%;">
+<{foreach item=block from=$xoops_crblocks}>
+<div style="margin-left: 4px;background: url('<{$xoops_url}>/themes/xd_inclavert/menu3.gif') no-repeat; height:23px; width: 250px;"><div style="float: left; margin-top: 5px; margin-left:3px"><b><{$block.title}></b></div></div>
+	<br /><{$block.content}><br />
+<{/foreach}>
+</td>
+</tr>
+</table><{/if}><div align="center"><{$xoops_contents}><br /><br /><br /><{$xoops_banner}><br /><br /><{$xoops_footer}></div>
+</div></td><td><{foreach item=block from=$xoops_rblocks}>	<div style="margin-left: 3px;background: url('<{$xoops_url}>/themes/xd_inclavert/menu.png') no-repeat; height:23px; width: 159px;"><div style="float: left; margin-top: 5px; margin-left:3px"><b><{$block.title}></b></div></div>
+	<br /><{$block.content}><br /><br /><{/foreach}></tr></table>
+					</div>
+
+		<div id="footer">
+			<div align="center" style="margin-top: 16px;float: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thème réalise par TrK et Florian pour <a target="_blank" href="http://www.xoops-design.org/">Xoops-Design</a>.</div></div>
+		<div style="height:30px"></div>
+	</div>
+</body>
+</html>

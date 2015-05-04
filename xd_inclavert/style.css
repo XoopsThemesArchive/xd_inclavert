@@ -1,0 +1,121 @@
+/* CSS partie  DESIGN */
+body {	
+	padding:0; 
+	margin:0;
+    color:#414141; 
+    background:#414141 url('images/fond.gif') repeat-x; 
+	font-size: 11px;  
+	font-family: Verdana; 
+}
+
+img{
+	border: 0px;
+}
+
+
+table {
+	margin: 0; 
+	padding: 0; 
+	font-size: 11px
+}
+
+input {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:9px;
+	background: transparent;
+	border: 1px solid silver;
+}
+select,textarea{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:9px;
+		border: 1px solid silver;
+}
+table td 
+{
+	padding: 0; 
+	border-width: 0; 
+	vertical-align: top; 
+	font-family: 
+	Verdana;
+}
+#englobe{
+	position: absolute;
+	width: 727px;
+	margin-left: -360px;
+	left: 50%;
+	top: 50px;
+	height : auto;
+}
+
+
+#contenu{
+	background:url(milieu.gif) repeat-y;
+		height: auto;
+}
+
+
+#header { 
+	background:url(header.jpg) no-repeat; 
+		width:727px; 
+	height:159px; 
+}
+
+
+#footer{ 
+	background:url(footer.jpg) no-repeat; 
+	width:727px; 
+	height:40px; 
+	text-align: center;
+}
+
+a {
+	color: #414141; 
+	text-decoration: none; 
+	background-color: transparent;
+}
+	
+a:hover {
+	color: #000000; 
+	text-decoration: NONE;
+}
+.item {border: 0px;}
+.itemHead {padding-top:6px; font-style:bold; float: left;background:url('menu.gif') no-repeat; height:23px; width:500px; margin-left:8px; padding-left: 7px;}
+.itemInfo {text-align: right; padding: 3px;	background-image: ;}
+.itemPoster {font-size: 85%; font-style:italic;}
+.itemPostDate {font-size: 85%; font-style:italic;}
+.itemStats {font-size: 85%; font-style:italic;}
+.itemBody {padding-left: 0px;background-image:}
+.itemText {padding: 5px; margin-top: 0px; margin-bottom: 0px; line-height:1.5em;         text-align: justify;}
+.itemText:first-letter {font-size: 155%; font-weight: bold;}
+.itemFoot {text-align: right; padding: 3px; 	}
+.itemAdminLink {font-size: 10px;}
+.itemPermaLink {font-size: 10px;}
+.itemTitle a {font-size: 98%; font-weight: bold; }
+th {background:url('menu_2.gif') repeat-x; height:23px; padding : 2px; vertical-align : middle; font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+.outer {border: 1px solid silver;}
+.head {background:#B2CB4C; padding: 5px; color: #ffffff; font-weight: bold;}
+.even {background-color: #F5F6FA; padding: 5px;}
+.odd {background-color: #F5F6FA; padding: 5px;}
+.foot {background-color: #F5F6FA; padding: 5px; font-weight: bold;}
+
+tr.even td {background-color: #F5F6FA; padding: 5px;}
+tr.odd td {background-color: #F5F6FA; padding: 5px;}
+div.errorMsg { background-color: #FFCCCC; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.confirmMsg { background-color: #DDFFDF; color: #136C99; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.resultMsg { background-color : #CCCCCC; color: #333333; text-align: center; border-top: 1px solid silver; border-left: 1px solid silver; font-weight: bold; border-right: 1px solid #666666; border-bottom: 1px solid #666666; padding: 10px;}
+div.xoopsCode { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; margin : 0;px 6px 6px 6px;}
+div.xoopsQuote { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; margin : 0;px 6px 6px 6px;}
+
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {font-size: 10px; color: #808080; font-weight:bold; border: 1px solid silver; background-color: #ffffff; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #808080; font-weight:bold; font-size: 10px;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: 10px;font-weight:bold;}
+.comUserRankImg {border: 0px none;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic;}
+.comDateCaption {font-weight: bold; font-style: normal;}
